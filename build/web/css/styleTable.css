@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2022, 4:21:13 PM
+    Author     : Dinh Nam
+*/
+
+table {
+    background-color: #ffffff;
+    /*font-size: x-large;*/
+    border-color: #000000;
+    /*width: 80%;*/
+    /* border-radius: 10px; */
+    border-spacing: 2px;
+    /*padding-left: 5%;*/
+}
+
+th{
+    background-color: #16a089;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 40px;
+    border-radius: 5px 5px 0px 0px;
+    border-left: solid 3px #fff;
+    border-right: solid 3px #fff;
+    text-align: center;
+}
+
+td{
+    background-color: #CAF7E3;
+    font-size: smaller;
+    color: #4d634c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*height: 40px;*/
+    padding: 5px;
+    border: solid 3px #fff;
+}
+
+tr:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 12px #000, -1px -1px 8px #000;
+}
+
+h2 {
+    margin: 70px 0 30px 0;
+}
+
+button {
+    height: 40px;
+    /*border: 1px;*/
+    background-color: #fff;
+    border-color: #1ddaba;
+    color: #000;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: #1ddaba;
+}

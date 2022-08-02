@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/aboutus2.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#login-box {
+    position: relative;
+    margin: 5% auto;
+    width: 1000px;
+    height: 650px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 100px 10%;
+    width: 50%;
+    height: 650px;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-weight: 350;
+    font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 300px;
+    height: 32px;
+    border: none;
+    border-bottom: 2px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+    background-color: transparent;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-bottom: 3px solid #16a085;
+    color: #16a085;
+    transition: 0.2s ease;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    width: 90px;
+    height: 32px;
+    background: #16a085;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+p {
+    margin-top: 40px;
+}
+
+.h1-login {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.login {
+    font-size: .7rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #999;
+}
+
+.or {
+    position: absolute;
+    top: 305px;
+    left: 480px;
+    width: 40px;
+    height: 40px;
+    background: #DDD;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    line-height: 40px;
+    text-align: center;
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 100px 12.5%;
+    width: 500px;
+    height: 650px;
+    background: url('../img/aboutus2.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 2px 2px 0;
+}
+
+.right .loginwith {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 28px;
+    color: #FFF;
+    text-align: center;
+}
+
+button.social-signin {
+    margin-bottom: 50px;
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 2px;
+    color: #1188c9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+}
+
+button.social-signin:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+    background: #FFFDDE;
+}
+
+button.social-signin.twitter {
+    background: #E7FBBE;
+}
+
+button.social-signin.google {
+    background: #FFCBCB;
+}
+
+.admin {
+    margin-top: 20px;
+}
+
+.text-danger {
+    color: #DD4B39;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
